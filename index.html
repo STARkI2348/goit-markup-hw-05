@@ -479,25 +479,28 @@
           </ul>
         </div>
 
-        <div class="footer_form_wrap">
-          <form class="footer_form">
-            <div class="form_label_wrap">
-              <label class="form_label" for="mail_user">Subscribe</label>
-              <div class="form_input_wrap">
-                <input
-                  class="footer_input"
-                  type="email"
-                  name="mail_user"
-                  id="mail_user"
-                />
-              </div>
-              <button type="button"></button>
-            </div>
+        <div class="subscribe_wrap">
+          <p class="form_subscribe_text">Subscribe</p>
+          <form class="form_subscribe" name="form_subscribe">
+            <label class="label_subscribe">
+              <input
+                class="subscribe_input"
+                type="email"
+                name="email_user"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe_btn" type="submit">
+              Subscribe
+              <svg class="subscribe_btn_icon" width="24" height="24">
+                <use href="./images/icons.svg#con-Frame-3"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
-    <div class="backdrop is_open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal_btn_close">
           <svg class="modal_icon_close" width="8" height="8">
@@ -575,7 +578,7 @@
             />
             <label for="pol_priv" class="check_text"
               ><span class="check_icon"
-                ><svg class="checkbox_icon" width="10" height="8">
+                ><svg class="checkbox_icon" width="10" height="10">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
               >I accept the terms and conditions of the
