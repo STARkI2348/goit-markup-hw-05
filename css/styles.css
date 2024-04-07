@@ -535,6 +535,12 @@ header {
   pointer-events: nine;
 }
 
+.is_open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .modal {
   width: 408px;
   min-height: 584px;
